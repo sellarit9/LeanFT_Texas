@@ -43,7 +43,7 @@
     <repository>
             <id>LFT</id>
                 <name>LFT</name>
-                <url>http://172.50.0.1:8091/repository/com/hp/lft/</url>
+                <url>http://172.50.0.1:8091/repository/com/hp</url>
         </repository>
     </repositories>
 
