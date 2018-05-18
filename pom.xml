@@ -1,85 +1,72 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>net.mf</groupId>
-    <artifactId>srf-example</artifactId>
-    <version>0.1</version>
+    <groupId>LeanFT_Texas</groupId>
+    <artifactId>LeanFT_Texas_Web</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <name>LeanFT JUnit Test</name>
     <description>LeanFT JUnit Test</description>
 
-    <properties>
-        <lft.ver>14.3.0</lft.ver>
-        <junit.ver>4.12</junit.ver>
-    </properties>
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>${junit.ver}</version>
+            <version>4.12</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>sdk</artifactId>
-            <version>${lft.ver}</version>
+            <version>14.3.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>report</artifactId>
-            <version>${lft.ver}</version>
+            <version>14.3.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>unittesting</artifactId>
-            <version>${lft.ver}</version>
+            <version>14.3.0</version>
         </dependency>
 
         <dependency>
             <groupId>com.hp.lft</groupId>
             <artifactId>verifications</artifactId>
-            <version>${lft.ver}</version>
+            <version>14.3.0</version>
         </dependency>
-
     </dependencies>
 
     <repositories>
-        <!--<repository>
-                <id>Your repository's ID</id>
-                    <name>Your repository's name</name>
-                    <url>URL of the repository containing the LeanFT jar files</url>
-            </repository>-->
+    <!--<repository>
+            <id>Your repository's ID</id>
+                <name>Your repository's name</name>
+                <url>URL of the repository containing the LeanFT jar files</url>
+        </repository>-->
     </repositories>
 
     <build>
-        <!--testSourceDirectory>src/main/java</testSourceDirectory-->
         <plugins>
-            <plugin>
-                <!-- This plugin is key to create a LFT Maven project to have the jar file
-                       created so SRF can use it.
-                       More information on the plugin itself can be found
-                       http://maven.apache.org/plugins/maven-assembly-plugin/ -->
-                <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.6</version>
-                <configuration>
-                    <descriptorRefs>
-                        <descriptorRef>jar-with-dependencies</descriptorRef>
-                    </descriptorRefs>
-                    <finalName>${project.artifactId}-${project.version}-with-lft-${lft.ver}</finalName>
-                    <appendAssemblyId>false</appendAssemblyId>
-                </configuration>
-                <executions>
-                    <execution>
-                        <id>make-assembly</id> <!-- this is used for inheritance merges -->
-                        <phase>package</phase> <!-- bind to the packaging phase -->
-                        <!--phase>compile</phase--> <!-- bind to the compiling phase -->
-                        <goals>
-                            <goal>single</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
+			<!--Uncomment this section if you want to use the application model generator plugin-->
+            <!--For details, see https://admhelp.microfocus.com/leanft/en/latest/HelpCenter/Content/HowTo/update-appModel.htm#hp-minitoc-item-3-->
+            <!--<plugin>-->
+                <!--<groupId>com.hpe.lft</groupId>-->
+                <!--<artifactId>appmodel-generator-mojo</artifactId>-->
+                <!--<version>14.3.0</version>-->
+                <!--<executions>-->
+                    <!--<execution>-->
+                        <!--<phase>validate</phase>-->
+                        <!--<goals>-->
+                            <!--<goal>generate</goal>-->
+                        <!--</goals>-->
+                    <!--</execution>-->
+					<!--<configuration>-->
+                    <!--</configuration>-->
+                <!--</executions>-->
+            <!--</plugin>-->
+			
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
