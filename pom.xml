@@ -40,11 +40,11 @@
     </dependencies>
 
     <repositories>
-    <!--<repository>
-            <id>Your repository's ID</id>
-                <name>Your repository's name</name>
-                <url>URL of the repository containing the LeanFT jar files</url>
-        </repository>-->
+    <repository>
+            <id>LFT</id>
+                <name>LFT</name>
+                <url>http://172.50.0.1:8091/repository/com/hp/lft/</url>
+        </repository>
     </repositories>
 
     <build>
