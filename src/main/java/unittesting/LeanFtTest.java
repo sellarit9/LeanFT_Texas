@@ -1,7 +1,9 @@
 package unittesting;
 
 import com.hp.lft.sdk.web.Browser;
+import com.hp.lft.sdk.web.BrowserFactory;
 import com.hp.lft.sdk.web.BrowserType;
+import com.hp.lft.verifications.Verify;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -31,17 +33,17 @@ public class LeanFtTest extends UnitTestClassBase
         globalTearDown();
     }
 
-//    @Before
-//    public void setUp() throws Exception
-//    {
-//        browser = BrowserFactory.launch(BrowserType.CHROME);
-//    }
-
     @Before
     public void setUp() throws Exception
     {
-        browser = SrfLab.launchBrowser(BrowserType.CHROME);
+        browser = BrowserFactory.launch(BrowserType.CHROME);
     }
+
+//    @Before
+//    public void setUp() throws Exception
+//    {
+//        browser = SrfLab.launchBrowser(BrowserType.CHROME);
+//    }
 
     @After
     public void tearDown() throws Exception
@@ -55,7 +57,13 @@ public class LeanFtTest extends UnitTestClassBase
         browser.navigate(url);
 
         TexasAppModel appModel = new TexasAppModel(browser);
+
+        String linkText = appModel.texasGovTheOfficialWebsiteOfTheStateOfTexasPage().infoLink().getOuterText();
+
+        Verify.areEqual(linkText,"INFO");
+
         appModel.texasGovTheOfficialWebsiteOfTheStateOfTexasPage().infoLink().click();
+
         appModel.texasGovTheOfficialWebsiteOfTheStateOfTexasPage().texasImage().click();
     }
 

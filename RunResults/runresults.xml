@@ -1,7 +1,7 @@
 <Results>
     <GeneralInfo>
         <Name/>
-        <RunStartTime>2018-05-18 20:30:54</RunStartTime>
+        <RunStartTime>2018-05-20 19:13:01</RunStartTime>
         <Timezone>GMT+0000 (UTC)</Timezone>
         <OrchestrationToolName>JUnit</OrchestrationToolName>
         <OrchestrationToolVersion/>
@@ -11,10 +11,10 @@
         <Data>
             <Name>Run Results</Name>
             <Description><![CDATA[ ]]></Description>
-            <StartTime>2018-05-18 20:30:54</StartTime>
-            <Result>Passed</Result>
+            <StartTime>2018-05-20 19:13:01</StartTime>
+            <Result>Failed</Result>
             <Links/>
-            <Duration><![CDATA[00:00:38.795]]></Duration>
+            <Duration><![CDATA[00:00:12.019]]></Duration>
             <Extension>
                 <Any>
                     <IconKey>Run</IconKey>
@@ -39,10 +39,10 @@
             <Data>
                 <Name>unittesting</Name>
                 <Description><![CDATA[Version: N/A]]></Description>
-                <StartTime>2018-05-18 20:30:54</StartTime>
-                <Result>Passed</Result>
+                <StartTime>2018-05-20 19:13:01</StartTime>
+                <Result>Failed</Result>
                 <Links/>
-                <Duration><![CDATA[00:00:38.680]]></Duration>
+                <Duration><![CDATA[00:00:11.952]]></Duration>
                 <Extension>
                     <Any>
                         <IconKey>Package</IconKey>
@@ -54,10 +54,10 @@
                 <Data>
                     <Name><![CDATA[unittesting.LeanFtTest]]></Name>
                     <Description/>
-                    <StartTime>2018-05-18 20:30:54</StartTime>
-                    <Result>Passed</Result>
+                    <StartTime>2018-05-20 19:13:01</StartTime>
+                    <Result>Failed</Result>
                     <Links/>
-                    <Duration><![CDATA[00:00:38.679]]></Duration>
+                    <Duration><![CDATA[00:00:11.952]]></Duration>
                     <Extension>
                         <Any>
                             <IconKey>Class</IconKey>
@@ -69,10 +69,10 @@
                     <Data>
                         <Name>test</Name>
                         <Description/>
-                        <StartTime>2018-05-18 20:30:54</StartTime>
-                        <Result>Passed</Result>
+                        <StartTime>2018-05-20 19:13:01</StartTime>
+                        <Result>Failed</Result>
                         <Links/>
-                        <Duration><![CDATA[00:00:38.673]]></Duration>
+                        <Duration><![CDATA[00:00:11.949]]></Duration>
                         <Extension>
                             <Any>
                                 <IconKey>Test</IconKey>
@@ -83,8 +83,8 @@
                     <ReportNode type="Step">
                         <Data>
                             <Name><![CDATA[Browser.launch]]></Name>
-                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr></table></td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div>Launched on StormRunner Functional (<a href="https://ftaas.saas.hpe.com/results/9055/details?TENANTID=511780658&utm_source=lft&utm_medium=report">Show results</a>)</p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>66.0</td></tr><tr><td class='ex-name'>osType</td><td class='ex-value'>windows</td></tr><tr><td class='ex-name'>osVersion</td><td class='ex-value'>7</td></tr><tr><td class='ex-name'>resolution</td><td class='ex-value'>1366x768</td></tr></table>]]></Description>
-                            <StartTime>2018-05-18 20:30:54</StartTime>
+                            <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>CHROME</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>66.0</td></tr></table>]]></Description>
+                            <StartTime>2018-05-20 19:13:01</StartTime>
                             <Result>Passed</Result>
                             <Links/>
                             <Duration><![CDATA[00:00:00.000]]></Duration>
@@ -93,7 +93,7 @@
                                     <TestObject>
                                         <Path/>
                                         <Operation>launch</Operation>
-                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr></table></td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div>Launched on StormRunner Functional (<a href="https://ftaas.saas.hpe.com/results/9055/details?TENANTID=511780658&utm_source=lft&utm_medium=report">Show results</a>)</p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>66.0</td></tr><tr><td class='ex-name'>osType</td><td class='ex-value'>windows</td></tr><tr><td class='ex-name'>osVersion</td><td class='ex-value'>7</td></tr><tr><td class='ex-name'>resolution</td><td class='ex-value'>1366x768</td></tr></table>]]></OperationData>
+                                        <OperationData><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>CHROME</td></tr></table><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><p><div class=data-label><hr><b>Browser Information</b></div> </p><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>type</td><td class='ex-value'>Chrome</td></tr><tr><td class='ex-name'>version</td><td class='ex-value'>66.0</td></tr></table>]]></OperationData>
                                         <Properties/>
                                     </TestObject>
                                     <IsHtmlErrorText>true</IsHtmlErrorText>
@@ -110,19 +110,19 @@
                     </ReportNode>
                     <ReportNode type="Step">
                         <Data>
-                            <Name><![CDATA[Browser.navigate]]></Name>
+                            <Name><![CDATA[about:blank.navigate]]></Name>
                             <Description><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-value'>https://texas.gov/</td></tr></table>]]></Description>
-                            <StartTime>2018-05-18 20:31:14</StartTime>
+                            <StartTime>2018-05-20 19:13:04</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration><![CDATA[00:00:01.963]]></Duration>
+                            <Duration><![CDATA[00:00:00.110]]></Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
                                         <Path>
                                             <Object>
                                                 <Type>Web.Browser</Type>
-                                                <Name><![CDATA[Browser]]></Name>
+                                                <Name><![CDATA[about:blank]]></Name>
                                             </Object>
                                         </Path>
                                         <Operation>navigate</Operation>
@@ -136,18 +136,6 @@
                                                 <Name><![CDATA[version]]></Name>
                                                 <Value><![CDATA[66.0]]></Value>
                                             </Property>
-                                            <Property>
-                                                <Name><![CDATA[osType]]></Name>
-                                                <Value><![CDATA[windows]]></Value>
-                                            </Property>
-                                            <Property>
-                                                <Name><![CDATA[osVersion]]></Name>
-                                                <Value><![CDATA[7]]></Value>
-                                            </Property>
-                                            <Property>
-                                                <Name><![CDATA[resolution]]></Name>
-                                                <Value><![CDATA[1366x768]]></Value>
-                                            </Property>
                                         </Properties>
                                     </TestObject>
                                     <IsHtmlErrorText>true</IsHtmlErrorText>
@@ -160,7 +148,7 @@
                                             <Path>
                                                 <Object>
                                                     <Type>Web.Browser</Type>
-                                                    <Name><![CDATA[Browser]]></Name>
+                                                    <Name><![CDATA[about:blank]]></Name>
                                                     <IconKey>Browser</IconKey>
                                                 </Object>
                                             </Path>
@@ -171,14 +159,37 @@
                             </Extension>
                         </Data>
                     </ReportNode>
+                    <ReportNode type="Verification">
+                        <Data>
+                            <Name>Verification</Name>
+                            <Description/>
+                            <StartTime>2018-05-20 19:13:11</StartTime>
+                            <Result>Failed</Result>
+                            <Links/>
+                            <Extension>
+                                <Any>
+                                    <Verification>
+                                        <Operation>areEqual</Operation>
+                                        <Data><![CDATA[<style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'><tr><td class='ex-name'>arg0</td><td class='ex-name'>arg1</td></tr><tr><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><tr><td class='ex-value'><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'>Info</table></font></td><td class='ex-value'><font color='red'><style>.ex-table{border-collapse: collapse !important;width: auto;height: auto;}.ex-table,.ex-table tr,.ex-table td{border: 1px solid #c6c6c6;}.ex-table td{padding: 5px 10px;vertical-align: top;width: auto;}.ex-table .ex-name{font-size: 13px;font-weight: bold;background-color: #f3f3f3;white-space: nowrap;}.ex-table .ex-value{color: #5a5a5a;}</style><table class='ex-table'>INFO</table></font></td></tr></tr></table>]]></Data>
+                                    </Verification>
+                                    <IsHtmlErrorText>true</IsHtmlErrorText>
+                                    <IconKey>VerifyFailure</IconKey>
+                                    <CustomUIElements>
+                                        <ErrorListItemStatusIndicatorIconKey>VerifyFailure</ErrorListItemStatusIndicatorIconKey>
+                                        <HideFlowTreeNodeStatusIndicator>true</HideFlowTreeNodeStatusIndicator>
+                                    </CustomUIElements>
+                                </Any>
+                            </Extension>
+                        </Data>
+                    </ReportNode>
                     <ReportNode type="Step">
                         <Data>
                             <Name><![CDATA[Info.click]]></Name>
                             <Description/>
-                            <StartTime>2018-05-18 20:31:16</StartTime>
+                            <StartTime>2018-05-20 19:13:11</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration><![CDATA[00:00:09.948]]></Duration>
+                            <Duration><![CDATA[00:00:00.279]]></Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -200,12 +211,12 @@
                                         <OperationData/>
                                         <Properties>
                                             <Property>
-                                                <Name><![CDATA[innerText]]></Name>
-                                                <Value><![CDATA[Info]]></Value>
-                                            </Property>
-                                            <Property>
                                                 <Name><![CDATA[tagName]]></Name>
                                                 <Value><![CDATA[A]]></Value>
+                                            </Property>
+                                            <Property>
+                                                <Name><![CDATA[innerText]]></Name>
+                                                <Value><![CDATA[Info]]></Value>
                                             </Property>
                                         </Properties>
                                     </TestObject>
@@ -246,10 +257,10 @@
                         <Data>
                             <Name><![CDATA[Texas.click]]></Name>
                             <Description/>
-                            <StartTime>2018-05-18 20:31:27</StartTime>
+                            <StartTime>2018-05-20 19:13:12</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration><![CDATA[00:00:03.616]]></Duration>
+                            <Duration><![CDATA[00:00:00.340]]></Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -321,10 +332,10 @@
                         <Data>
                             <Name><![CDATA[Texas.gov | The Official Website of the State of Texas.close]]></Name>
                             <Description/>
-                            <StartTime>2018-05-18 20:31:30</StartTime>
+                            <StartTime>2018-05-20 19:13:12</StartTime>
                             <Result>Passed</Result>
                             <Links/>
-                            <Duration><![CDATA[00:00:02.313]]></Duration>
+                            <Duration><![CDATA[00:00:00.798]]></Duration>
                             <Extension>
                                 <Any>
                                     <TestObject>
@@ -344,18 +355,6 @@
                                             <Property>
                                                 <Name><![CDATA[version]]></Name>
                                                 <Value><![CDATA[66.0]]></Value>
-                                            </Property>
-                                            <Property>
-                                                <Name><![CDATA[osType]]></Name>
-                                                <Value><![CDATA[windows]]></Value>
-                                            </Property>
-                                            <Property>
-                                                <Name><![CDATA[osVersion]]></Name>
-                                                <Value><![CDATA[7]]></Value>
-                                            </Property>
-                                            <Property>
-                                                <Name><![CDATA[resolution]]></Name>
-                                                <Value><![CDATA[1366x768]]></Value>
                                             </Property>
                                         </Properties>
                                     </TestObject>
