@@ -1,0 +1,7 @@
+[
+  {
+    "runnableClass": "unittesting.LeanFtTest",
+
+    "framework": "junit"
+  }
+]

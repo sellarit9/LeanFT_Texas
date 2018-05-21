@@ -1,6 +1,7 @@
 package unittesting;
 
 import com.hp.lft.sdk.web.Browser;
+import com.hp.lft.sdk.web.BrowserDescription;
 import com.hp.lft.sdk.web.BrowserFactory;
 import com.hp.lft.sdk.web.BrowserType;
 import com.hp.lft.verifications.Verify;
@@ -33,17 +34,29 @@ public class LeanFtTest extends UnitTestClassBase
         globalTearDown();
     }
 
-    @Before
-    public void setUp() throws Exception
-    {
-        browser = BrowserFactory.launch(BrowserType.CHROME);
-    }
-
 //    @Before
 //    public void setUp() throws Exception
 //    {
-//        browser = SrfLab.launchBrowser(BrowserType.CHROME);
+//        browser = BrowserFactory.launch(BrowserType.CHROME);
 //    }
+
+    @Before
+    public void setUp() throws Exception
+    {
+        BrowserDescription bd = new BrowserDescription();
+
+        bd.setType(BrowserType.CHROME); //or: bd.set("type", BrowserType.INTERNET_EXPLORER) or: bd.set("type", "INTERNET_EXPLORER")
+
+        bd.set("version", "64");
+
+        bd.set("osType", "Windows");
+
+        bd.set("osVersion", "10");
+
+        bd.set("testName", "Tre LeanFT Texas Web Test");
+
+        browser = SrfLab.launchBrowser(bd);
+    }
 
     @After
     public void tearDown() throws Exception
