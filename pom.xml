@@ -50,13 +50,13 @@
         </dependency>
     </dependencies>
 
-    <repositories>
+   <!-- <repositories>
         <repository>
                 <id>LFT</id>
                     <name>LFT</name>
                     <url>http://172.50.0.1:8091/repository/</url>
             </repository>
-    </repositories>
+    </repositories>-->
 
     <build>
         <extensions>
